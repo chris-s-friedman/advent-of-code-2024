@@ -5,3 +5,21 @@ line-length = 80
 profile = "black"
 line_length = 80
 sections = ["FUTURE", "STDLIB", "FIRSTPARTY", "THIRDPARTY", "LOCALFOLDER"]
+
+[tool.poetry]
+name = "aoc"
+version = "0.1.0"
+description = ""
+authors = ["chris-s-friedman <chris-s-friedman@users.noreply.github.com>"]
+readme = "README.md"
+package-mode = false
+
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
